@@ -1,0 +1,29 @@
+MORPION JAVA SWING - VALIDATION DE LA VERSION SIMPLE
+Date : 20/11/2026
+Environnement : Windows, Java 17.0.16.
+Commande : .\\Morpion\\tester.cmd
+Compilation UTF-8 avec -Xlint:all, sans avertissement.
+
+SORTIE OBSERVEE
+Compilation reussie : dist\Morpion.jar
+Partie : 317 controles reussis.
+TestServices OK : 182 controles (ordinateur et sauvegarde).
+TestInterfaceMorpion OK : 89 controles (boutons, noms, temps, fichiers et ordinateur).
+
+VERIFICATIONS
+- Les huit alignements pour X et O, le match nul et les coups refuses.
+- Les noms, les modes et les boutons de l'interface Swing.
+- L'ordinateur choisit seulement une case libre, au hasard.
+- Sauvegarde et reprise de la grille, des noms, des modes et du temps.
+- Fichier incoherent refuse sans remplacer la partie en cours.
+- Delai de dix secondes, nouveau delai apres un coup accepte et defaite au temps.
+
+Les tests de l'interface utilisent les vrais composants Swing hors ecran.
+Une horloge de test permet de verifier les dix secondes sans attente.
+Les dialogues de fichiers et la fermeture visible sont a essayer sur le
+poste de presentation. Les images sont des rendus du composant reel.
+
+Le depot Git local est initialise sur main. Un tableau Kanban local est
+fourni dans docs/images/06-tableau-kanban.png, sans compte Trello necessaire.
+Le depot GitHub reste a creer apres connexion du compte. Son vrai lien
+sera ajoute dans docs/LIENS_PROJET.json et dans le rapport.

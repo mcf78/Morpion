@@ -1,0 +1,9 @@
+/build/
+/dist/
+/tmp/
+/.idea/
+*.class
+*.morpion
+*.tmp
+.DS_Store
+Thumbs.db
