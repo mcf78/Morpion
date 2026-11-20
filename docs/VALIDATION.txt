@@ -28,5 +28,6 @@ Les sources et la documentation sont publiees sur le depot :
 https://github.com/mcf78/Morpion
 Le tableau Trello prive existe et a ete confirme par une capture fournie :
 https://trello.com/b/pguzsi6Y/morpion-java-swing
-L'image docs/images/06-tableau-kanban.png est un schema de ses listes
-d'apres cette capture. Les liens sont dans docs/LIENS_PROJET.json.
+Une capture reelle du tableau Trello a ete fournie :
+docs/images/06-trello-reel.png
+Les liens sont dans docs/LIENS_PROJET.json.

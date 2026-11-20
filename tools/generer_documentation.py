@@ -119,13 +119,21 @@ def tableau(p, entetes, donnees, largeurs, y, taille=10.5):
     return y + 20
 
 
-def capture(p, fichier, legende, y):
+def capture(p, fichier, legende, y, portion_largeur=1.0):
     chemin = IMAGES / fichier
     image = fitz.Pixmap(str(chemin))
-    rapport = min(ZONE / image.width, 410 / image.height)
-    largeur, hauteur = image.width * rapport, image.height * rapport
+    rapport = min(ZONE / (image.width * portion_largeur), 410 / image.height)
+    largeur, hauteur = image.width * portion_largeur * rapport, image.height * rapport
     x = MARGE + (ZONE - largeur) / 2
-    p.insert_image(fitz.Rect(x, y, x + largeur, y + hauteur), filename=str(chemin))
+    destination = fitz.Rect(x, y, x + largeur, y + hauteur)
+    if portion_largeur == 1.0:
+        p.insert_image(destination, filename=str(chemin))
+    else:
+        # Cadrage dans la page PDF ; le fichier de capture reste intact.
+        with fitz.open(chemin) as original:
+            with fitz.open("pdf", original.convert_to_pdf()) as source:
+                cadre = fitz.Rect(0, 0, source[0].rect.width * portion_largeur, source[0].rect.height)
+                p.show_pdf_page(destination, source, 0, clip=cadre)
     return texte(p, legende, y + hauteur + 10, taille=8.5, couleur=GRIS, espace=20)
 
 
@@ -259,7 +267,8 @@ texte(p, "Commande : tester.cmd. Le résultat des essais est dans docs/VALIDATIO
 p = page("Organiser le projet", "GitHub et Trello")
 y = texte(p, "Le tableau Trello du projet comporte trois listes : À faire, En cours et "
           "Terminé. La capture fournie confirme les cartes et leur répartition.", 132)
-y = capture(p, "06-tableau-kanban.png", "Schéma des listes du tableau Trello, d'après la capture fournie.", y + 8)
+y = capture(p, "06-trello-reel.png", "Capture réelle du tableau Trello, cadrée sur les trois listes.",
+            y + 8, portion_largeur=0.60)
 for nom, cle in [("GitHub", "github"), ("Trello", "trello")]:
     y = sous_titre(p, nom, y)
     lien = LIENS.get(cle, "").strip()
@@ -290,4 +299,4 @@ with fitz.open(SORTIE) as resultat:
     for i, p in enumerate(resultat):
         p.get_pixmap(matrix=fitz.Matrix(1.3, 1.3)).save(verification / f"page-{i+1:02d}.png")
 print("Rapport créé :", SORTIE)
-print("10 pages. Les captures, le schéma du tableau Trello et les liens sont intégrés.")
+print("10 pages. Les captures réelles du jeu et de Trello et les liens sont intégrés.")

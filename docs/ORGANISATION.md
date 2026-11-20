@@ -1,6 +1,6 @@
 # Organisation du projet
 
-Les tâches sont suivies sur le [tableau Trello Morpion Java Swing](https://trello.com/b/pguzsi6Y/morpion-java-swing), qui est privé. Le [schéma des listes](images/06-tableau-kanban.png) est réalisé d'après la capture fournie ; ce n'est pas une capture native de Trello.
+Les tâches sont suivies sur le [tableau Trello Morpion Java Swing](https://trello.com/b/pguzsi6Y/morpion-java-swing), qui est privé. Une [capture réelle du tableau Trello](images/06-trello-reel.png) a été fournie et accompagne le projet.
 
 ## Tableau Trello
 
