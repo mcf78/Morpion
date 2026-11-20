@@ -25,5 +25,7 @@ poste de presentation. Les images sont des rendus du composant reel.
 
 Le depot Git local est initialise sur main. Un tableau Kanban local est
 fourni dans docs/images/06-tableau-kanban.png, sans compte Trello necessaire.
-Le depot GitHub reste a creer apres connexion du compte. Son vrai lien
-sera ajoute dans docs/LIENS_PROJET.json et dans le rapport.
+Les sources et la documentation sont publiees sur le depot :
+https://github.com/mcf78/Morpion
+Le lien est enregistre dans docs/LIENS_PROJET.json. Aucun tableau Trello
+distant n'est connecte.

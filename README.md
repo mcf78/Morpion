@@ -55,4 +55,6 @@ Le jeu utilise uniquement Java et Swing, sans bibliothèque à ajouter.
 
 Documentation : [consignes](docs/CAHIER_DES_CHARGES.md), [organisation](docs/ORGANISATION.md), [soutenance](docs/SOUTENANCE.md) et [rapport PDF](output/pdf/Documentation_Morpion_MALLEM_Moncef.pdf).
 
-Un [tableau Kanban local](docs/images/06-tableau-kanban.png), dans le style Trello, présente les tâches du projet. Aucun compte Trello n'est nécessaire pour consulter cette image. Le dépôt GitHub reste à connecter et à créer ; son vrai lien sera ajouté dans `docs/LIENS_PROJET.json`. Les rôles du binôme restent à attribuer aux participants réels.
+Les sources et la documentation sont publiées sur [GitHub](https://github.com/mcf78/Morpion).
+
+Un [tableau Kanban local](docs/images/06-tableau-kanban.png), dans le style Trello, présente les tâches du projet. Aucun compte Trello n'est nécessaire pour consulter cette image. Aucun tableau Trello distant n'est connecté. Les rôles du binôme restent à attribuer aux participants réels.

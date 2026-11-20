@@ -8,18 +8,19 @@ Le tableau **Morpion Java Swing** reprend l'état actuel du projet :
 
 | À faire | En cours | Terminé |
 | --- | --- | --- |
-| Créer le dépôt GitHub | Aucune tâche | Consigne et conception |
-| Essayer les dialogues de fichiers | | Fenêtre et règles |
-| Répéter la présentation | | Ordinateur et chronomètre |
+| Essayer les dialogues de fichiers | Aucune tâche | Consigne et conception |
+| Répéter la présentation | | Fenêtre et règles |
+| | | Ordinateur et chronomètre |
 | | | Sauvegarde et reprise |
 | | | Tests automatisés |
 | | | Documentation |
+| | | Partage sur GitHub |
 
 Les tests automatisés sont terminés. Les dialogues de fichiers et la fermeture visible restent à essayer sur le poste de présentation.
 
 ## GitHub
 
-Le dépôt GitHub reste à connecter et à créer pour partager les fichiers du dossier `Morpion`. Son vrai lien sera enregistré dans `LIENS_PROJET.json`. Enregistrer ensuite les changements avec des messages simples. Si deux personnes travaillent dessus, chacune utilise son compte et relit les changements de l'autre.
+Les sources et la documentation sont publiées sur [github.com/mcf78/Morpion](https://github.com/mcf78/Morpion). Le lien est enregistré dans `LIENS_PROJET.json`. Enregistrer les changements avec des messages simples. Si deux personnes travaillent dessus, chacune utilise son compte et relit les changements de l'autre.
 
 ## Répartition proposée
 

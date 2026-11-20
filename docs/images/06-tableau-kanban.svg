@@ -15,43 +15,43 @@
       <text x="825" y="165">Terminé</text>
     </g>
     <g font-size="18" fill="#63748a">
-      <text x="357" y="163">3</text>
+      <text x="357" y="163">2</text>
       <text x="747" y="163">0</text>
-      <text x="1137" y="163">6</text>
+      <text x="1137" y="163">7</text>
     </g>
 
     <g fill="#ffffff" stroke="#d9e1e9">
       <rect x="40" y="195" width="340" height="70" rx="7"/>
       <rect x="40" y="279" width="340" height="70" rx="7"/>
-      <rect x="40" y="363" width="340" height="70" rx="7"/>
-      <rect x="820" y="195" width="340" height="70" rx="7"/>
-      <rect x="820" y="279" width="340" height="70" rx="7"/>
-      <rect x="820" y="363" width="340" height="70" rx="7"/>
-      <rect x="820" y="447" width="340" height="70" rx="7"/>
-      <rect x="820" y="531" width="340" height="70" rx="7"/>
-      <rect x="820" y="615" width="340" height="70" rx="7"/>
+      <rect x="820" y="195" width="340" height="60" rx="7"/>
+      <rect x="820" y="267" width="340" height="60" rx="7"/>
+      <rect x="820" y="339" width="340" height="60" rx="7"/>
+      <rect x="820" y="411" width="340" height="60" rx="7"/>
+      <rect x="820" y="483" width="340" height="60" rx="7"/>
+      <rect x="820" y="555" width="340" height="60" rx="7"/>
+      <rect x="820" y="627" width="340" height="60" rx="7"/>
     </g>
     <g font-size="20" fill="#172b4d">
-      <text x="54" y="224">Créer le dépôt GitHub</text>
-      <text x="54" y="308">Essayer les dialogues</text>
-      <text x="54" y="392">Répéter la présentation</text>
-      <text x="834" y="224">Consigne et conception</text>
-      <text x="834" y="308">Fenêtre et règles</text>
-      <text x="834" y="392">Ordinateur et chronomètre</text>
-      <text x="834" y="476">Sauvegarde et reprise</text>
-      <text x="834" y="560">Tests automatisés</text>
-      <text x="834" y="644">Documentation</text>
+      <text x="54" y="224">Essayer les dialogues</text>
+      <text x="54" y="308">Répéter la présentation</text>
+      <text x="834" y="220">Consigne et conception</text>
+      <text x="834" y="292">Fenêtre et règles</text>
+      <text x="834" y="364">Ordinateur et chronomètre</text>
+      <text x="834" y="436">Sauvegarde et reprise</text>
+      <text x="834" y="508">Tests automatisés</text>
+      <text x="834" y="580">Documentation</text>
+      <text x="834" y="652">Partage sur GitHub</text>
     </g>
     <g font-size="14" fill="#63748a">
-      <text x="54" y="248">Partager les fichiers du projet.</text>
-      <text x="54" y="332">Sauvegarder, recharger et quitter.</text>
-      <text x="54" y="416">Faire la démonstration du jeu.</text>
-      <text x="834" y="248">Fonctions du sujet identifiées.</text>
-      <text x="834" y="332">Grille, noms, victoire et match nul.</text>
-      <text x="834" y="416">Case au hasard et délai de 10 secondes.</text>
-      <text x="834" y="500">Fichier texte avec temps restant.</text>
-      <text x="834" y="584">Règles, interface et fichiers vérifiés.</text>
-      <text x="834" y="668">Rapport illustré et aide pour l'oral.</text>
+      <text x="54" y="248">Sauvegarder, recharger et quitter.</text>
+      <text x="54" y="332">Faire la démonstration du jeu.</text>
+      <text x="834" y="243">Fonctions du sujet identifiées.</text>
+      <text x="834" y="315">Grille, noms, victoire et match nul.</text>
+      <text x="834" y="387">Case au hasard et délai de 10 secondes.</text>
+      <text x="834" y="459">Fichier texte avec temps restant.</text>
+      <text x="834" y="531">Règles, interface et fichiers vérifiés.</text>
+      <text x="834" y="603">Rapport illustré et aide pour l'oral.</text>
+      <text x="834" y="675">Sources et documentation publiées.</text>
     </g>
     <text x="444" y="224" font-size="18" fill="#63748a">Aucune tâche en cours.</text>
     <text x="28" y="753" font-size="16" fill="#e0edf7">État du projet au 20/11/2026 - tableau local de suivi</text>
