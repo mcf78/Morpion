@@ -257,19 +257,19 @@ texte(p, "Commande : tester.cmd. Le résultat des essais est dans docs/VALIDATIO
 
 # 10. Suivi et bilan
 p = page("Organiser le projet", "GitHub et Trello")
-y = texte(p, "Les tâches sont regroupées dans un tableau Kanban local, dans le style de "
-          "Trello. Il permet de voir ce qui reste à faire et ce qui est terminé.", 132)
-y = capture(p, "06-tableau-kanban.png", "Tableau Kanban local du projet. Aucun compte Trello nécessaire.", y + 8)
-y = sous_titre(p, "GitHub", y)
-lien = LIENS.get("github", "").strip()
-if lien:
-    depart = y
-    y = texte(p, lien, y, taille=10, couleur=VERT)
-    p.insert_link({"kind": fitz.LINK_URI,
-                   "from": fitz.Rect(MARGE, depart, MARGE + ZONE, y), "uri": lien})
-else:
-    y = texte(p, "Le dépôt Git local est prêt. Le dépôt GitHub reste à créer après "
-              "connexion du compte.", y, taille=10, couleur=GRIS)
+y = texte(p, "Le tableau Trello du projet comporte trois listes : À faire, En cours et "
+          "Terminé. La capture fournie confirme les cartes et leur répartition.", 132)
+y = capture(p, "06-tableau-kanban.png", "Schéma des listes du tableau Trello, d'après la capture fournie.", y + 8)
+for nom, cle in [("GitHub", "github"), ("Trello", "trello")]:
+    y = sous_titre(p, nom, y)
+    lien = LIENS.get(cle, "").strip()
+    if lien:
+        depart = y
+        y = texte(p, lien, y, taille=10, couleur=VERT)
+        p.insert_link({"kind": fitz.LINK_URI,
+                       "from": fitz.Rect(MARGE, depart, MARGE + ZONE, y), "uri": lien})
+    else:
+        y = texte(p, "Lien à ajouter après création de l'espace.", y, taille=10, couleur=GRIS)
 y = sous_titre(p, "Répartition proposée", y + 5)
 y = texte(p, "Participant 1 : grille, règles et ordinateur. Participant 2 : fenêtre, "
           "chronomètre et sauvegarde. Ensemble : tests, rapport et présentation.", y, taille=10.5)
@@ -290,4 +290,4 @@ with fitz.open(SORTIE) as resultat:
     for i, p in enumerate(resultat):
         p.get_pixmap(matrix=fitz.Matrix(1.3, 1.3)).save(verification / f"page-{i+1:02d}.png")
 print("Rapport créé :", SORTIE)
-print("10 pages. Les captures, le tableau Kanban local et les liens sont intégrés.")
+print("10 pages. Les captures, le schéma du tableau Trello et les liens sont intégrés.")

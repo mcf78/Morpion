@@ -57,4 +57,4 @@ Documentation : [consignes](docs/CAHIER_DES_CHARGES.md), [organisation](docs/ORG
 
 Les sources et la documentation sont publiées sur [GitHub](https://github.com/mcf78/Morpion).
 
-Un [tableau Kanban local](docs/images/06-tableau-kanban.png), dans le style Trello, présente les tâches du projet. Aucun compte Trello n'est nécessaire pour consulter cette image. Aucun tableau Trello distant n'est connecté. Les rôles du binôme restent à attribuer aux participants réels.
+Les tâches sont suivies sur le [tableau Trello Morpion Java Swing](https://trello.com/b/pguzsi6Y/morpion-java-swing), qui est privé. Le [schéma des listes](docs/images/06-tableau-kanban.png) reprend la capture fournie. Les rôles du binôme restent à attribuer aux participants réels.

@@ -1,20 +1,20 @@
 # Organisation du projet
 
-Le projet dispose d'un [tableau Kanban local](images/06-tableau-kanban.png), dans le style Trello. C'est une image fournie avec le dossier ; aucun compte Trello n'est nécessaire.
+Les tâches sont suivies sur le [tableau Trello Morpion Java Swing](https://trello.com/b/pguzsi6Y/morpion-java-swing), qui est privé. Le [schéma des listes](images/06-tableau-kanban.png) est réalisé d'après la capture fournie ; ce n'est pas une capture native de Trello.
 
-## Tableau local
+## Tableau Trello
 
-Le tableau **Morpion Java Swing** reprend l'état actuel du projet :
+La capture du tableau montre les listes suivantes :
 
 | À faire | En cours | Terminé |
 | --- | --- | --- |
-| Essayer les dialogues de fichiers | Aucune tâche | Consigne et conception |
-| Répéter la présentation | | Fenêtre et règles |
-| | | Ordinateur et chronomètre |
-| | | Sauvegarde et reprise |
-| | | Tests automatisés |
+| Essayer les dialogues de fichiers | Aucune tâche | Consignes |
+| Répéter l'oral | | Interface et règles |
+| | | Ordinateur et chrono |
+| | | Sauvegarde/reprise |
+| | | Tests |
 | | | Documentation |
-| | | Partage sur GitHub |
+| | | Publication GitHub |
 
 Les tests automatisés sont terminés. Les dialogues de fichiers et la fermeture visible restent à essayer sur le poste de présentation.
 

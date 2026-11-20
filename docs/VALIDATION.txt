@@ -21,11 +21,12 @@ VERIFICATIONS
 Les tests de l'interface utilisent les vrais composants Swing hors ecran.
 Une horloge de test permet de verifier les dix secondes sans attente.
 Les dialogues de fichiers et la fermeture visible sont a essayer sur le
-poste de presentation. Les images sont des rendus du composant reel.
+poste de presentation. Les images du jeu sont des rendus du composant reel.
 
-Le depot Git local est initialise sur main. Un tableau Kanban local est
-fourni dans docs/images/06-tableau-kanban.png, sans compte Trello necessaire.
+Le depot Git local est initialise sur main.
 Les sources et la documentation sont publiees sur le depot :
 https://github.com/mcf78/Morpion
-Le lien est enregistre dans docs/LIENS_PROJET.json. Aucun tableau Trello
-distant n'est connecte.
+Le tableau Trello prive existe et a ete confirme par une capture fournie :
+https://trello.com/b/pguzsi6Y/morpion-java-swing
+L'image docs/images/06-tableau-kanban.png est un schema de ses listes
+d'apres cette capture. Les liens sont dans docs/LIENS_PROJET.json.
