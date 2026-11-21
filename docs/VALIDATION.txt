@@ -1,11 +1,13 @@
 MORPION JAVA SWING - VALIDATION DE LA VERSION SIMPLE
 Date : 20/11/2026
-Environnement : Windows, Java 17.0.16.
-Commande : .\\Morpion\\tester.cmd
-Compilation UTF-8 avec -Xlint:all, sans avertissement.
+Environnement : Windows, OpenJDK 26, deja configure dans IntelliJ.
+Verification : compilation directe avec le meme JDK que le projet IntelliJ,
+puis execution du main des trois classes du dossier tests.
+Compilation standard UTF-8, compatible Java 17 (--release 17).
+Configuration IntelliJ controlee : module Morpion, sources src, UTF-8
+et lancement de Gestion.main. Aucun script de lancement necessaire.
 
 SORTIE OBSERVEE
-Compilation reussie : dist\Morpion.jar
 Partie : 317 controles reussis.
 TestServices OK : 182 controles (ordinateur et sauvegarde).
 TestInterfaceMorpion OK : 89 controles (boutons, noms, temps, fichiers et ordinateur).

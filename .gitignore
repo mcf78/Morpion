@@ -1,7 +1,11 @@
+/out/
 /build/
 /dist/
 /tmp/
-/.idea/
+/.idea/*
+!/.idea/modules.xml
+!/.idea/misc.xml
+!/.idea/encodings.xml
 *.class
 *.morpion
 *.tmp

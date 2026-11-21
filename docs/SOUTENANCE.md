@@ -2,7 +2,9 @@
 
 ## Avant de passer
 
-Lancer `tester.cmd`, puis ouvrir le jeu avec `lancer.cmd`. Préparer un dossier pour enregistrer la sauvegarde.
+Dans IntelliJ, ouvrir le dossier intérieur **Morpion**, celui qui contient `src` et `Morpion.iml`. Choisir un **JDK 17 ou plus récent** si demandé. Ouvrir `src/Gestion.java`, puis cliquer sur le **triangle vert à côté de `main`** pour lancer le jeu. Préparer un dossier pour enregistrer la sauvegarde.
+
+Les tests sont facultatifs : leurs classes `TestPartie`, `TestServices` et `TestInterfaceMorpion`, dans `tests`, se lancent aussi avec le triangle vert de `main`.
 
 ## Démonstration proposée
 
@@ -18,7 +20,7 @@ Pour faire gagner X en mode deux joueurs, cliquer dans cet ordre : `(1,1), (2,1)
 
 ## Expliquer le code simplement
 
-- `Gestion` lance le jeu.
+- `Gestion` est le point d'entrée et lance le jeu, comme dans le cours.
 - `Morpion` affiche les champs et boutons et répond aux clics.
 - `Partie` garde la grille et vérifie le gagnant.
 - `Ordinateur` choisit une case libre au hasard.

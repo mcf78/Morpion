@@ -174,9 +174,10 @@ texte(p, "Source : docs/consigne-originale.jpeg.\nLe tableau complet des consign
 
 # 3. Classes
 p = page("Comprendre le code", "Les classes")
-y = texte(p, "Chaque classe a un rôle simple.", 132)
+y = texte(p, "Ouvrir le dossier Morpion dans IntelliJ, puis src/Gestion.java. Cliquer sur le "
+          "triangle vert à côté de main pour lancer le jeu.", 132)
 y = tableau(p, ["Classe", "Rôle"], [
-    ("Gestion", "Lance le jeu."),
+    ("Gestion", "Point d'entrée : main ouvre la fenêtre du jeu."),
     ("Morpion", "Affiche la fenêtre et répond aux clics."),
     ("Partie", "Garde la grille et vérifie les règles."),
     ("Ordinateur", "Choisit une case libre au hasard."),
@@ -259,9 +260,9 @@ y = liste(p, [
     "Sauvegarder, recharger et retrouver les mêmes coups.",
     "Vérifier le chronomètre et le bouton Rejouer.",
 ], y)
-texte(p, "Commande : tester.cmd. Le résultat des essais est dans docs/VALIDATION.txt. "
-      "Les dialogues de fichiers et la fermeture réelle de la fenêtre restent à essayer "
-      "sur le poste de présentation.", y + 10, taille=10, couleur=GRIS)
+texte(p, "Dans IntelliJ, les trois classes du dossier tests se lancent avec leur méthode main. "
+      "Le résultat est dans docs/VALIDATION.txt. Essayer aussi les dialogues de fichiers "
+      "et la fermeture du jeu sur le poste de présentation.", y + 10, taille=10, couleur=GRIS)
 
 # 10. Suivi et bilan
 p = page("Organiser le projet", "GitHub et Trello")

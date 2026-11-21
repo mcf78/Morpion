@@ -2,11 +2,13 @@
 
 Projet de MALLEM Moncef, Paris Ynov Campus, année 2026 / 2027. Réalisé avec l'aide de Codex à partir de la [photo du sujet](docs/consigne-originale.jpeg).
 
-## Lancer le jeu
+## Lancer dans IntelliJ
 
-Installer Java JDK 17 ou plus récent, puis double-cliquer sur `lancer.cmd`.
+1. Dans IntelliJ, choisir **Fichier > Ouvrir**, puis le dossier intérieur **Morpion**, celui qui contient `src` et `Morpion.iml`.
+2. Si IntelliJ le demande, sélectionner un **JDK 17 ou plus récent**.
+3. Ouvrir `src/Gestion.java` et cliquer sur le **triangle vert à côté de `main`**.
 
-Dans IntelliJ : ouvrir le dossier `Morpion`, choisir le JDK et lancer `Gestion.main()`.
+On peut aussi sélectionner la configuration **Morpion**, puis cliquer sur **Run**. La classe `Gestion` est le point d'entrée du programme, comme dans le cours.
 
 ## Jouer
 
@@ -45,13 +47,11 @@ La sauvegarde conserve les noms, les options, les coups et le temps restant. Les
 | `Ordinateur` | Choisit une case libre au hasard. |
 | `Sauvegarde` | Enregistre et relit le fichier. |
 
-Le jeu utilise uniquement Java et Swing, sans bibliothèque à ajouter.
+Le jeu utilise uniquement Java et Swing. Il n'y a pas de Maven, de Gradle ni de bibliothèque à installer.
 
-## Vérifier et rendre le projet
+## Tests facultatifs
 
-- `tester.cmd` lance les tests.
-- `compiler.cmd` crée `dist/Morpion.jar`.
-- `java -jar dist/Morpion.jar` lance le JAR.
+Dans le dossier `tests`, ouvrir `TestPartie.java`, `TestServices.java` ou `TestInterfaceMorpion.java`, puis cliquer sur le triangle vert de leur méthode `main` pour lancer les vérifications.
 
 Documentation : [consignes](docs/CAHIER_DES_CHARGES.md), [organisation](docs/ORGANISATION.md), [soutenance](docs/SOUTENANCE.md) et [rapport PDF](output/pdf/Documentation_Morpion_MALLEM_Moncef.pdf).
 

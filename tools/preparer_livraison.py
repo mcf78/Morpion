@@ -1,6 +1,6 @@
-"""Crée une archive autonome du projet, avec le JAR et le dossier PDF.
+"""Crée une archive du projet IntelliJ et de son dossier PDF.
 
-Exécuter après compiler.cmd et après génération du PDF :
+Exécuter après génération du PDF :
     python tools/preparer_livraison.py
 Python n'est pas nécessaire pour jouer au morpion.
 """
@@ -15,14 +15,14 @@ DESTINATION = BASE.parent / "Morpion_livraison.zip"
 
 def main():
     requis = [
-        BASE / "dist" / "Morpion.jar",
         BASE / "output" / "pdf" / "Documentation_Morpion_MALLEM_Moncef.pdf",
         BASE / "README.md",
-        BASE / "compiler.cmd",
-        BASE / "lancer.cmd",
-        BASE / "tester.cmd",
         BASE / ".gitignore",
         BASE / "Morpion.iml",
+        BASE / ".idea" / "modules.xml",
+        BASE / ".idea" / "misc.xml",
+        BASE / ".idea" / "encodings.xml",
+        BASE / ".run" / "Morpion.run.xml",
     ]
     for fichier in requis:
         if not fichier.is_file():

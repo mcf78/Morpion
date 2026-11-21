@@ -25,8 +25,8 @@ X commence. Les joueurs posent leur symbole dans une case vide, chacun leur tour
 
 ## Choix simples
 
-L'ordinateur joue O et choisit une case libre au hasard. La sauvegarde est un fichier texte. Le code utilise les classes, tableaux, boucles et composants Swing vus en cours. Il n'y a pas de réseau, de base de données ni de classement.
+L'ordinateur joue O et choisit une case libre au hasard. La sauvegarde est un fichier texte. Le code utilise les classes, tableaux, boucles et composants Swing vus en cours. La classe `Gestion` est le point d'entrée : le jeu se lance dans IntelliJ avec le triangle vert de sa méthode `main`. Il n'y a pas de Maven, de Gradle ni de bibliothèque à installer.
 
 ## À vérifier
 
-Essayer les deux modes, une victoire, un match nul, le temps écoulé et la sauvegarde/reprise. Lancer aussi `tester.cmd`. Le compte rendu des essais se trouve dans `VALIDATION.txt`.
+Essayer les deux modes, une victoire, un match nul, le temps écoulé et la sauvegarde/reprise. Les tests facultatifs se lancent dans IntelliJ avec le `main` des classes `TestPartie`, `TestServices` et `TestInterfaceMorpion`, dans `tests`. Le compte rendu des essais se trouve dans `VALIDATION.txt`.
