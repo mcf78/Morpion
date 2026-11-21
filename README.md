@@ -20,6 +20,5 @@ MALLEM Moncef - Paris Ynov Campus - 2026 / 2027.
 
 ## Liens
 
-- [Rapport du projet](Documentation_Morpion_MALLEM_Moncef.pdf)
 - [Dépôt GitHub](https://github.com/mcf78/Morpion)
 - [Tableau Trello privé](https://trello.com/b/pguzsi6Y/morpion-java-swing)
