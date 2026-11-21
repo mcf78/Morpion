@@ -2,6 +2,13 @@
 /build/
 /dist/
 /tmp/
+/tests/
+/tools/
+/docs/
+/output/
+/src/.idea/
+/src/out/
+/src/*.iml
 /.idea/*
 !/.idea/modules.xml
 !/.idea/misc.xml
